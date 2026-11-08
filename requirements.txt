@@ -1,0 +1,3 @@
+# Lets Python control Microsoft Word on Windows, which does the actual conversion.
+# Not needed on Mac/Linux, where the script uses LibreOffice instead.
+pywin32>=306; sys_platform == "win32"
